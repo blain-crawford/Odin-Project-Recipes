@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.child1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.child2{
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.child3{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.flag{
+    width: 100%;
+    height: 100%;
+}
+
+.child1-bottom{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.child3-bottom{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.inner-parent{
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+}
+
+#outer-parent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#pre-spacer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+#spacer{
+    height: 700%;
+    width: 100%;
+    border: 1px solid black;
+}
